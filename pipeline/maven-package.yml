@@ -13,5 +13,5 @@ inputs:
 
 run:
   path: mvn
-  args: ["-f", "git-repo/pom.xml", "-DskipTests=true", "package"]
+  args: ["-f", "spring-java-app/pom.xml", "-DskipTests=true", "package"]
 
