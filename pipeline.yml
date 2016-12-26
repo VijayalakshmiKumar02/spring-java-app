@@ -1,6 +1,6 @@
 
 resources:
-  - name: git-repo
+  - name: spring-java-app
     type: git
     source:
       uri: https://github.com/VijayalakshmiKumar02/spring-java-app.git
@@ -20,9 +20,8 @@ jobs:
       - get: time
     - task: maven-package
       privileged: true
-      file: git-repo/pipeline/maven-package.yml
-    - task: rename-file
-      file: git-repo/pipeline/rename-file.yml
+      file: spring-java-app/build.yml
+   
 
 #   - name: rename file
 #     plan:
