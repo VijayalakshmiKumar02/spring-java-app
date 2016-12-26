@@ -5,7 +5,7 @@ image_resource:
     repository: concourse/bosh-cli 
 
 inputs:
-  - name: git-repo
+  - name: spring-java-app
 
 #outputs:
 #  - name: jar-file
