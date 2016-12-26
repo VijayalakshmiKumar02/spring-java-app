@@ -2,10 +2,12 @@
 
 set -e -x
 
-git clone resource-seroter-repo resource-app
+git clone spring-java-app resource-app
 
 cd resource-app
 
 mvn clean
 
 mvn install
+
+mvn test
