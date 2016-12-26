@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/bash
 
 set -e -x
 
@@ -10,4 +10,4 @@ mvn clean
 
 mvn install
 
-mvn test
+
