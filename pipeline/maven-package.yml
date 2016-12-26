@@ -9,6 +9,6 @@ inputs:
 #    path: git-repo/target/
 
 run:
-  path: mvn.txt
+  path: spring-java-app/mvn.txt
   args: ["-f", "spring-java-app/pom.xml", "-DskipTests=true", "package"]
 
