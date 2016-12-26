@@ -8,10 +8,10 @@ image_resource:
     tag: latest
     
 inputs:
-  - name: resource-seroter-repo
+  - name: spring-java-app
   
 outputs:
   - name: resource-app
   
 run:
-  path: resource-seroter-repo/ci/build.sh
+  path: spring-java-app/build.sh
