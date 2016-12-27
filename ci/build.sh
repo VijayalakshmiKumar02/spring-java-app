@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-set -e -x
+set -e -x -u
 
 git clone spring-java-app resource-app
 
