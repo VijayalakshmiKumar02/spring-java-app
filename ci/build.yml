@@ -7,5 +7,5 @@ inputs:
 outputs:
   - name: resource-app
   
-run:
+run: sh
   path: spring-java-app/ci/build.sh
